@@ -91,7 +91,6 @@ export default function ProjectDetailPage({
       </div>
       <p className="text-muted-foreground mb-6">{project.description}</p>
 
-      {/* Stats */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
         <Card>
           <CardHeader className="pb-2">
@@ -127,7 +126,6 @@ export default function ProjectDetailPage({
         </Card>
       </div>
 
-      {/* Progress bar */}
       <Card className="mb-8">
         <CardHeader>
           <CardTitle>Progress</CardTitle>
@@ -147,7 +145,6 @@ export default function ProjectDetailPage({
         </CardContent>
       </Card>
 
-      {/* Tasks list */}
       <h2 className="text-xl font-semibold mb-4">Tasks</h2>
       <div className="space-y-3">
         {tasks?.map((task) => (

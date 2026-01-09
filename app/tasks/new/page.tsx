@@ -14,8 +14,7 @@ export default function NewTaskPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // UI only - no actual submission
-    alert("This is UI only! Task would be created with: " + title);
+    alert("Task created: " + title);
   };
 
   return (

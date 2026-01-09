@@ -54,7 +54,6 @@ export default function Home() {
       <h1 className="text-3xl font-bold mb-2">Dashboard</h1>
       <p className="text-muted-foreground mb-6">Welcome to TaskFlow!</p>
 
-      {/* Stats */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
         <Card>
           <CardHeader className="pb-2">
@@ -90,7 +89,6 @@ export default function Home() {
         </Card>
       </div>
 
-      {/* Recent Tasks */}
       <h2 className="text-xl font-semibold mb-4">Recent Tasks</h2>
       <div className="space-y-2 mb-8">
         {tasks?.slice(0, 5).map((task) => (
@@ -120,7 +118,6 @@ export default function Home() {
         ))}
       </div>
 
-      {/* Projects */}
       <h2 className="text-xl font-semibold mb-4">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {projects?.map((project) => (

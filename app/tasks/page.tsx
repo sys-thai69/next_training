@@ -85,7 +85,6 @@ export default function TasksPage() {
         </Link>
       </div>
 
-      {/* Filter buttons */}
       <div className="flex gap-2 mb-6">
         <button
           onClick={() => setFilter("all")}
@@ -113,7 +112,6 @@ export default function TasksPage() {
         </button>
       </div>
 
-      {/* Tasks list */}
       <div className="space-y-3">
         {filteredTasks?.map((task) => (
           <Card className="hover:bg-accent cursor-pointer mb-3" key={task.id}>

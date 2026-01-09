@@ -4,7 +4,8 @@ A simple task management app built with Next.js, React Query, and JSON Server.
 
 ## Team Members
 
-- [Your Name Here]
+- Pheav Chhengthai
+- Nhuong Norakchivorn
 
 ## Tech Stack
 

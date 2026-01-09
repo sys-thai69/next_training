@@ -1,5 +1,3 @@
-// Types for our app
-
 export type Project = {
   id: string;
   slug: string;
